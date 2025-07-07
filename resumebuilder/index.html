@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+ <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <div>
+    <h1>Design Your Resume</h1>
+    <form action="" id="resumeForm">
+      <div id="personal">
+        <h3>Personal Details</h3>
+        <label for="Name"><b>Name:</b></label><br>
+        <input type="text" name="first " placeholder="Enter First Name" id="fname">
+        <input type="text" name="Middle " placeholder="Enter Middle Name" id="mname">
+        <input type="text" name="last " placeholder="Enter Last Name" id="lname"><br>
+        <label for="About"> <b>About Me:</b></label><br>
+        <textarea name="About" id="about"></textarea>
+      </div>
+      <div id="contact">
+        <h3>Contact Info</h3>
+       <input type="text" name="Contact" placeholder="Enter Mobile No." id="contactNo"><br>
+       <input type="email" name="Email" placeholder="Enter Email-id" id="mail"><br>
+       <input type="text" name="pin" placeholder="Enter PinCode" id="pin"><br>
+      </div>
+      <h3>Skills</h3>
+      <textarea name="skill" id="skill" placeholder=" Use Bullets e.g .HTML .CSS .JS "></textarea>
+      <h3>Experience</h3>
+      <textarea name="exp" id="experience" placeholder="Work Experience using Points"></textarea>
+      <h3>Educational Details</h3>
+      <textarea name="edu" id="qual" placeholder=" Use Bullets eg. .MCA with % .BCA with %"></textarea>
+      <button id="btn" type="submit"> Create Resume</button>
+    </form>
+    <div class="resume-container" id="output" style="display: none;"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

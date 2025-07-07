@@ -1,0 +1,104 @@
+body{
+  margin:0;
+  padding:0;
+ background-color:rgb(91, 106, 121);
+ }
+ h1{
+text-align: center; }
+form{
+align-self: center;
+align-items: center;
+
+}
+#resumeForm{
+  background-color:white;
+align-items: center;
+   width:600px;
+  height:800px;
+  padding:40px;
+  padding-top:0 ;
+  margin: 0px 200px 300px 420px;
+  align-content: center;
+  
+ }
+ #personal{
+  padding:0;
+ }
+ #personal textarea{
+      height:50px;
+      width:500px;
+ }
+ #contact{
+  padding:0px;
+ }
+ #contact input{
+  padding:0;
+  margin:10px 10px 10px 10px;
+  width:300px;
+  height:30px;
+
+ }
+ #skill{
+  height:50px;
+      width:500px;
+ }
+ #experience{
+height:50px;
+      width:500px;
+      padding:0;
+ }
+ #qual{
+  height:50px;
+      width:500px;
+      padding:0;
+ } 
+ #btn{
+    align-items: center;
+    border-radius:60px;
+    border:none;
+    align-content: center;
+    background-color: dimgrey;
+    color:white;
+ }
+ #output{
+   background-color:white;
+align-items: center;
+   width:600px;
+  height:800px;
+  padding:40px;
+  padding-top:0px ;
+  margin: 0px 200px 300px 420px;
+  align-content: center;
+  
+ }
+.left-sec{
+   display:flex;
+}
+.resume-container{
+   width:600px;
+   padding:30px;
+}
+.resume-container h1{
+   text-align:center;
+   background-color: black;
+   border-radius: 40px;
+   color:white;
+   margin-top: 10px;
+}
+.resume-container h2{
+   text-align: center;
+   background-color: blanchedalmond;
+   border-radius: 40px;
+}
+.left-sec img{
+   height:70px;
+   width:70px;
+   margin-left:200px;
+   
+   }
+   .resume-container h4{
+     display:inline;
+    margin-left:50px;
+   margin-bottom:0px;
+   }
+   
