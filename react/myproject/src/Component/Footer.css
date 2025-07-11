@@ -1,0 +1,13 @@
+footer{
+   background: linear-gradient(to left, #122d38, #203a43, #2c5364);
+    color:black;
+    margin-bottom: 0%;
+   
+}
+.Social-links{
+margin: 10px 200px 0px 300px;
+
+}
+.Social-links a{
+    margin-left: 100px;
+}

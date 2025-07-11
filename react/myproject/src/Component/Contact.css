@@ -1,0 +1,25 @@
+.contact{
+ 
+    text-align:center;
+    width:900px;
+    height:300px;
+    padding:30px;
+    margin-left: 400px;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+#con{
+    margin-top: 50px;
+    text-decoration: none  ;
+
+}
+ span .conID{
+    color: #7efeff;
+    text-decoration: none;
+    background-color: azure;
+}
+footer{
+    margin-top:5%;
+}
+

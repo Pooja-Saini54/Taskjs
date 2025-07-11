@@ -1,0 +1,15 @@
+.projects{
+  font-size: 17px;
+    margin-left: 70px;
+
+}
+.project-card a {
+  color: #76ffff;         
+  text-decoration: none; 
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color:#2a4d4d;         
+  text-decoration: underline;
+}
